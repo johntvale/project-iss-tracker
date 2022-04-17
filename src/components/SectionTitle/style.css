@@ -1,0 +1,10 @@
+.section-title {
+  margin: 20px;
+  padding: 20px 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
