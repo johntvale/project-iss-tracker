@@ -6,10 +6,10 @@ import './style.css';
 
 export default function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <BackgroundVideo />
       <Navigation />
       <TextHero />
-    </div>
+    </header>
   );
 }

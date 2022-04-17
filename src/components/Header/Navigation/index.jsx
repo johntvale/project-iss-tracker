@@ -1,6 +1,6 @@
 import React from 'react';
-import menuIcon from '../../../assets/menu-icon.png';
-import logoIcon from '../../../assets/logo-icon.png';
+import menuIcon from '../../../assets/icons/menu-icon.png';
+import logoIcon from '../../../assets/icons/logo-icon.png';
 import './style.css';
 
 export default function Navigation() {
@@ -10,7 +10,9 @@ export default function Navigation() {
       <img className="menu-icon" src={menuIcon} />
       <ul>
         <li>home</li>
-        <li>location</li>
+        <li>
+          <a href="#location-section">location</a>
+        </li>
         <li>crew</li>
         <li>missions</li>
       </ul>
