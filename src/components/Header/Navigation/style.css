@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 300px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.logo-icon {
+  width: 40px;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+/* lista inicialmente oculta */
+.navbar > ul {
+  display: none;
+  color: white;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar > ul > li {
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar > ul > li:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* a partir de 900px ou mais desativa o menu em formato de ícone  */
+/* mudando para o menu em formato de lista */
+@media (min-width: 1000px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .navbar > ul {
+    display: flex;
+  }
+}

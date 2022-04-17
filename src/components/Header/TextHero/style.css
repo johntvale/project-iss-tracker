@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.text-hero {
+  margin-left: 10%;
+  padding: 10% 0;
+  justify-content: center;
+  min-width: 280px;
+}
+
+.title, .subtitle {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+  font-weight: initial;
+}
+
+.title {
+  font-family: 'Iceland', cursive;
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+.subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9em;
+  margin-right: 10%;
+}
+
+@media (min-width: 600px) {
+  .text-hero {
+    padding: 6% 0;
+  }
+
+  .title {
+    font-size: 6em;
+  }
+  
+  .subtitle {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width:1000px) {
+  .text-hero {
+    padding: 7% 0;
+  }
+
+  .text-hero {
+    margin-left: 12%;
+  }
+
+  .title {
+    font-size: 9em;
+  }
+  
+  .subtitle {
+    font-size: 1.4em;
+  }
+}

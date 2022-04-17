@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+  width: 90%;
+  height: 300px;
+}
+
+@media (min-width:600px) {
+  .header {
+    height: 400px;
+  }
+}
+
+@media (min-width:1000px) {
+  .header {
+    height: 600px;
+  }
+}
