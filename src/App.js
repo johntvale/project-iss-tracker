@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Location from './components/Location';
+import Location from './components/Sections/Location';
 import './App.css';
 
 function App() {

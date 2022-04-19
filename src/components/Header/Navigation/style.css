@@ -1,8 +1,9 @@
 .navbar {
   display: flex;
+  height: 30px;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90vw;
   min-width: 300px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.20);
   padding-top: 10px;
@@ -11,7 +12,18 @@
 
 .logo-icon {
   width: 30px;
-  text-transform: uppercase;
+}
+
+.logo-icon-home {
+  background-color: rgba(20, 20, 20, 50);
+  border-radius: 30px;
+  border: 1px solid white;
+  padding: 10px;
+  width: 30px;
+  position: fixed;
+  z-index: 1;
+  bottom: 30px;
+  right: 30px;
 }
 
 .menu-icon {
@@ -26,7 +38,7 @@
 }
 
 .navbar > ul > li {
-  padding: 10px 25px;
+  /* padding: 10px 25px; */
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
@@ -34,15 +46,18 @@
 }
 
 .navbar > ul > li > a {
+  color: white;
   text-decoration: none;
+  padding: 10px 25px;
+  border:1px solid rgba(255, 255, 255, 0);
 }
 
 .navbar > ul > li > a:visited {
   color: white;
 }
 
-.navbar > ul > li:hover {
-  text-decoration: underline;
+.navbar > ul > li > a:hover {
+  border:1px solid rgba(255, 255, 255, 0.20);
 }
 
 /* a partir de 900px ou mais desativa o menu em formato de ícone  */
