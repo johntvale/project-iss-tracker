@@ -1,5 +1,5 @@
 import React from 'react';
-import issIcon from '../../../../assets/icons/iss-icon-2.png';
+import issIcon from '../../../../assets/icons/iss-icon.png';
 import { Map, Overlay, ZoomControl } from 'pigeon-maps';
 import { stamenToner } from 'pigeon-maps/providers';
 
