@@ -1,4 +1,6 @@
-.navbar {
+/* Mobile First development pattern */
+
+.navbar { /* default for any screen */
   display: flex;
   height: 30px;
   justify-content: space-between;
@@ -10,64 +12,129 @@
   padding-bottom: 20px;
 }
 
-.logo-icon {
+.navbar > .menu-button { /* remove btn style */
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.logo-icon, .logo-icon-home, .menu-icon { /* default value */
   width: 30px;
 }
 
-.logo-icon-home {
+.logo-icon-home { /* after scrolling */
   background-color: rgba(20, 20, 20, 50);
   border-radius: 30px;
   border: 1px solid white;
   padding: 10px;
-  width: 30px;
   position: fixed;
   z-index: 1;
   bottom: 30px;
   right: 30px;
 }
 
-.menu-icon {
-  width: 30px;
-}
-
-/* lista inicialmente oculta */
-.navbar > ul {
-  display: none;
-  color: white;
+.navbar > ul { /* menu list (dropdown) before 600px screen */
+  display: flex;
+  flex-direction: column;
   list-style: none;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  margin-top: 75px;
+  margin-bottom: 0;
+  align-items: flex-end;
+  border-top:1px solid rgba(255, 255, 255, 0.2);
 }
 
-.navbar > ul > li {
-  /* padding: 10px 25px; */
+.navbar > ul > li { /* menu list item before 600px screen */
+  display: flex;
+  align-items: center;
+  background-color: rgba(20,20,20,0.85);
+  width: 100%;
+  height: 60px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
+  border-bottom:1px solid rgba(255, 255, 255, 0.2);
+  border-left:1px solid rgba(255, 255, 255, 0.2);
+  border-right:1px solid rgba(255, 255, 255, 0.2);
 }
 
-.navbar > ul > li > a {
+.navbar > ul > li > a { /* menu link before 600px screen */
+  padding-left: 15px;
+  padding-top: 19px;
+  padding-bottom: 19px;
   color: white;
+  width: 100%;
   text-decoration: none;
-  padding: 10px 25px;
   border:1px solid rgba(255, 255, 255, 0);
 }
 
-.navbar > ul > li > a:visited {
+
+.navbar > ul > li > a:visited { /* visited link before 600px screen */
   color: white;
 }
 
-.navbar > ul > li > a:hover {
-  border:1px solid rgba(255, 255, 255, 0.20);
+.navbar > ul > li > a:hover { /* hover link before 600px screen */
+  text-decoration: underline;
+  background-color: rgb(20,20,20);
 }
 
-/* a partir de 900px ou mais desativa o menu em formato de ícone  */
-/* mudando para o menu em formato de lista */
+/* change menu's width to 50% after 600px screen */
+@media (min-width: 600px) {
+  .navbar > ul {
+    border-top:none;
+  }
+  
+  .navbar > ul > li {
+    border-top:1px solid rgba(255, 255, 255, 0.20);
+    width: 50%;
+  }
+
+  .navbar > ul > li > a:hover {
+    background-color: rgb(20,20,20);
+    border-bottom:1px solid rgba(255, 255, 255, 0.20);
+  }
+}
+
+/* change menu's style to Inline List after 1000px screen and disable the Menu Button */
 @media (min-width: 1000px) {
   .menu-icon {
     display: none;
   }
 
   .navbar > ul {
-    display: flex;
+    width: auto;
+    padding-left: 0;
+    display: block;
+    flex-direction: row;
+    margin-top: 0;
+    position: relative;
+  }
+
+  .navbar > ul > li {
+    background-color: transparent;
+    display: inline-block;
+    border:0;
+    font-size: 18px;
+    height: auto;
+    width: auto;
+    border: 0;
+  }
+  
+  .navbar > ul > li > a {
+    padding: 5px 30px;
+    width: 150px;
+    border: 0;
+  }
+  
+  .navbar > ul > li > a:hover {
+    text-decoration:underline;
+    background-color: transparent;
+    border: 0;
   }
 }
