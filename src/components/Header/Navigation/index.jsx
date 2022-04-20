@@ -6,7 +6,7 @@ import {
   setHomeBtnPosition,
   setInitialNavigationMode,
   setNavigationMode
-} from '../../../helpers';
+} from '../../../helpers/functions-header';
 import './style.css';
 
 export default function Navigation() {
