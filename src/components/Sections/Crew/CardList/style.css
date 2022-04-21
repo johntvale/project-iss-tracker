@@ -1,0 +1,9 @@
+.cardlist-container {
+  min-width: 350px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  transition:all 1s;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 280px));
+  gap: 1.5em;
+}

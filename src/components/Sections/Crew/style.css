@@ -1,0 +1,33 @@
+#crew-section {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90vw;
+  min-width: 350px;
+  padding-bottom: 20px;
+  background-color: rgba(20,20,20, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.people-in-space {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1em;
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+@media (min-width: 600px) {
+  .people-in-space {
+    font-size: 1.15em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .people-in-space {
+    font-size: 1.25em;
+  }
+}

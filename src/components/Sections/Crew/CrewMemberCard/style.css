@@ -1,0 +1,35 @@
+.crew-member-card {
+  text-align: center;
+  background-color: white;
+  border-radius: 1em;
+  padding: 20px;
+  padding-top: 30px;
+  min-height: 300px;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.crew-member-card > img {
+  object-fit: cover;
+  border-radius: 1em;
+  /* background-color: rgb(20, 20, 20); */
+  border: 1px solid rgba(20, 20, 20, 0.5);
+}
+
+.crew-member-card > div > h4, .crew-member-card > div > p {
+  text-align: left;
+  margin: 10px;
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  .crew-member-card {
+    font-size: 1.15em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .crew-member-card {
+    font-size: 1.25em;
+  }
+}
