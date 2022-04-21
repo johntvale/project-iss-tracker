@@ -4,7 +4,24 @@
   width: 100%;
   color: white;
   text-align: center;
-  font-size: 26px;
-  font-weight: 400;
   text-transform: capitalize;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+@media (min-width: 600px) {
+  .section-title {
+    font-weight: 600;
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section-title {
+    font-weight: 600;
+    font-size: 1.8em;
+  }
 }

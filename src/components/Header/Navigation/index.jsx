@@ -6,7 +6,7 @@ import {
   setHomeBtnPosition,
   setInitialNavigationMode,
   setNavigationMode
-} from '../../../helpers/functions-header';
+} from '../../../helpers/navigation';
 import './style.css';
 
 export default function Navigation() {
@@ -54,10 +54,10 @@ export default function Navigation() {
             <a href="#location-section">location</a>
           </li>
           <li>
-            <a href="#location-crew">crew</a>
+            <a href="#crew-section">crew</a>
           </li>
           <li>
-            <a href="#location-missions">missions</a>
+            <a href="#fun-facts">fun facts</a>
           </li>
         </ul>
       )}
