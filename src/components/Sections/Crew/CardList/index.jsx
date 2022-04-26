@@ -1,28 +1,23 @@
 import React, { useContext } from 'react';
+import PropTypes from 'prop-types';
 import CrewContext from '../../../../context/CrewContext';
-import CrewMemberCard from '../CrewMemberCard';
+import { placeholderList } from '../../../../helpers/placeholderList';
+import { mapList } from '../../../../helpers/mapCrewList';
 import './style.css';
 
-export default function CardList() {
+function CardList(props) {
+  const { isActiveButton } = props;
   const { crewList, isLoading } = useContext(CrewContext);
   console.log(crewList, isLoading);
   return (
-    <div className="cardlist-container">
-      {!isLoading &&
-        crewList.map((person) => {
-          const { id, image, name, country, position, spacecraft, url } = person;
-          return (
-            <CrewMemberCard
-              key={id}
-              image={image}
-              name={name}
-              country={country}
-              position={position}
-              spacecraft={spacecraft}
-              url={url}
-            />
-          );
-        })}
+    <div className={isActiveButton ? 'cardlist-container show-content' : 'cardlist-container'}>
+      {!isLoading && crewList.length > 0 ? mapList(crewList) : mapList(placeholderList)}
     </div>
   );
 }
+
+CardList.propTypes = {
+  isActiveButton: PropTypes.boolean
+};
+
+export default CardList;

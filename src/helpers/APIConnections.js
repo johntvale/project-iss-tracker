@@ -19,6 +19,7 @@ export const getCrewInfo = async (setCrewList, setPeopleInSpace, setIsLoading) =
     data = await data.json();
     setCrewList(data.people);
     setPeopleInSpace(data.number);
+    console.log(data.people[10].image);
   } catch (error) {
     console.error(error);
   }

@@ -1,25 +1,34 @@
 .crew-member-card {
+  color: white;
+  min-width: 240px;
   text-align: center;
-  background-color: white;
-  border-radius: 1em;
+  background-color: rgb(20,20,20);
+  border-radius: 0.5em;
   padding: 20px;
   padding-top: 30px;
   min-height: 300px;
   font-size: 1em;
   font-weight: 100;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
 }
 
 .crew-member-card > img {
+  object-position: top;
   object-fit: cover;
-  border-radius: 1em;
-  /* background-color: rgb(20, 20, 20); */
-  border: 1px solid rgba(20, 20, 20, 0.5);
+  border-radius: 0.5em;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .crew-member-card > div > h4, .crew-member-card > div > p {
+  color: white;
   text-align: left;
   margin: 10px;
   padding: 0;
+}
+
+.crew-member-card > div > p > a, .crew-member-card > div > p > a:visited {
+  color: white;
 }
 
 @media (min-width: 600px) {

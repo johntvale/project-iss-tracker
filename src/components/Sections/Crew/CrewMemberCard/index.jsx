@@ -6,7 +6,16 @@ function CrewMemberCard(props) {
   const { image, name, country, position, spacecraft, url } = props;
   return (
     <div className="crew-member-card">
-      <img height="250px" width="170px" src={image} />
+      <img
+        height="250px"
+        width="170px"
+        src={image}
+        title={
+          image
+            ? name
+            : `Ops... Something goes wrong. You can check the picture on the link "more info"`
+        }
+      />
       <div>
         <h4>Name: {name}</h4>
         <p>

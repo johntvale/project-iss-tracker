@@ -16,18 +16,45 @@
   color: white;
   margin-bottom: 15px;
   font-size: 1em;
+  font-weight: 200;
   border-top: 1px solid rgba(255, 255, 255, 0.10);
   border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.list-control-button {
+  background-color: rgba(20,20,20,0.20);
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  width: 180px;
+  height: 60px;
+}
+
+.list-control-button:active {
+  border: 1px solid white;
+}
+
+.list-control-button:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
 }
 
 @media (min-width: 600px) {
   .people-in-space {
     font-size: 1.15em;
   }
+  .list-control-button {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 1000px) {
   .people-in-space {
     font-size: 1.25em;
+  }
+  .list-control-button {
+    font-size: 18px;
   }
 }

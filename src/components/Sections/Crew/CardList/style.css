@@ -1,9 +1,37 @@
 .cardlist-container {
   min-width: 350px;
+  max-height: 1520px;
+  overflow-y: hidden;
   width: 100%;
   display: grid;
   justify-content: center;
-  transition:all 1s;
   grid-template-columns: repeat(auto-fit, minmax(180px, 280px));
   gap: 1.5em;
+}
+
+.show-content {
+  max-height: unset;
+  overflow-y: unset;
+}
+
+@media (min-width: 600px) {
+  .cardlist-container {
+    max-height: 1100px;
+    overflow-y: hidden;
+  }
+  .show-content {
+    max-height: unset;
+    overflow-y: unset;
+  }
+}
+
+@media (min-width: 900px) {
+  .cardlist-container {
+    max-height: 590px;
+    overflow-y: hidden;
+  }
+  .show-content {
+    max-height: unset;
+    overflow-y: unset;
+  }
 }
