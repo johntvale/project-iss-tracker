@@ -17,7 +17,7 @@ function CardList(props) {
 }
 
 CardList.propTypes = {
-  isActiveButton: PropTypes.boolean
+  isActiveButton: PropTypes.bool
 };
 
 export default CardList;

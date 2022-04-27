@@ -5,7 +5,8 @@ export default function Footer() {
   return (
     <footer>
       <h3>
-        <span>ISS Tracker</span> - The International Space Station just a click away.
+        <span className="notranslate">ISS Tracker</span> - The International Space Station just a
+        click away.
       </h3>
       <nav>
         <a href="#">Home</a>

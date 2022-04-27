@@ -25,7 +25,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .cardlist-container {
     max-height: 590px;
     overflow-y: hidden;

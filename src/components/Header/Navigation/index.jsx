@@ -48,16 +48,18 @@ export default function Navigation() {
       {showMenuList && (
         <ul>
           <li>
-            <a href="#">home</a>
+            <a className="notranslate" href="#">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#location-section">location</a>
+            <a href="#location-section">Location</a>
           </li>
           <li>
-            <a href="#crew-section">crew</a>
+            <a href="#crew-section">Crew</a>
           </li>
           <li>
-            <a href="#fun-facts">fun facts</a>
+            <a href="#fun-facts">Fun Facts</a>
           </li>
         </ul>
       )}
