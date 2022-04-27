@@ -1,0 +1,70 @@
+.post {
+  color: white;
+  min-width: 80%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255, 0.2);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.post > h3 {
+  font-size: 1.15em;
+}
+
+.post > img{
+  border: 1px solid rgba(255,255,255, 0.2);
+  border-radius: 0.5em;
+  width: 100%;
+  min-width: 80%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.post > p {
+  text-align: left;
+  font-size: 1.15em;
+}
+
+.post > p > a, .post > p > a:visited {
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .post {
+    width: 80%;
+  }
+
+  .post > h3 {
+    font-size: 1.25em;
+  }
+
+  .post > img {
+    height: 350px;
+  }
+
+  .post > p {
+    text-align: left;
+    font-size: 1.15em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .post {
+    width: 80%;
+  }
+
+  .post > h3 {
+    font-size: 1.4em;
+  }
+
+  .post > img {
+    height: 500px;
+  }
+
+  .post > p {
+    text-align: left;
+    font-size: 1.20em;
+  }
+}

@@ -1,0 +1,12 @@
+#fun-facts {
+  margin-top: 30px;
+  width: 90vw;
+  min-width: 300px;
+  padding-bottom: 20px;
+  background-color: rgba(20,20,20, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
