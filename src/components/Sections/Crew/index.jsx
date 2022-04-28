@@ -24,8 +24,10 @@ export default function Crew() {
   }, []);
 
   function toggleButton() {
-    if (isActiveButton) setIsActiveButton(false);
-    else setIsActiveButton(true);
+    if (isActiveButton) {
+      location.href = '#crew-section';
+      setIsActiveButton(false);
+    } else setIsActiveButton(true);
   }
 
   return (

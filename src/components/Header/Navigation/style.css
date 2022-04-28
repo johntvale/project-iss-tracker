@@ -19,6 +19,10 @@
   border: 0;
 }
 
+.menu-button {
+  cursor: pointer;
+}
+
 .logo-icon, .logo-icon-home, .menu-icon { /* default value */
   width: 30px;
 }
