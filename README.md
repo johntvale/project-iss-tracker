@@ -67,4 +67,3 @@
 ### Referências
 - Vídeo do Background foi retirado do canal no YouTube: <a href="https://www.youtube.com/watch?v=FG0fTKAqZ5g">David Peterson</a>
 - Site inspirado no site oficial da <a href="https://www.nasa.gov/">NASA</a>
-- As fotos utilizadas estão com
