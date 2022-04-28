@@ -14,10 +14,17 @@
 }
 
 .crew-member-card > img {
+  height: 250px;
+  width: 170px;
   object-position: top;
   object-fit: cover;
   border-radius: 0.5em;
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.flag {
+  height: 17px;
+  width: 25px;
 }
 
 .crew-member-card > div > h4, .crew-member-card > div > p {

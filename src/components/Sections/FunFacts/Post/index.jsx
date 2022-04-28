@@ -4,7 +4,6 @@ import './style.css';
 
 function Post(props) {
   const { title, image, text, credit, url } = props;
-  console.log(image);
   return (
     <div className="post">
       <h3>{title}</h3>
