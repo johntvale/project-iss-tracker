@@ -6,6 +6,7 @@ import { getCrewInfo } from '../../../helpers/APIConnections';
 import './style.css';
 
 export default function Crew() {
+  const THREE_HOURS = 1000 * 60 * 60 * 3; // 1000ms(1s) => 60s => 60m => 3h
   const [crewList, setCrewList] = useState([]);
   const [peopleInSpace, setPeopleInSpace] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
@@ -13,6 +14,13 @@ export default function Crew() {
 
   useEffect(() => {
     getCrewInfo(setCrewList, setPeopleInSpace, setIsLoading);
+
+    const updateCrewInfo = setInterval(() => {
+      // update every 3 hours
+      getCrewInfo(setCrewList, setPeopleInSpace, setIsLoading);
+    }, THREE_HOURS);
+
+    return () => clearInterval(updateCrewInfo);
   }, []);
 
   function toggleButton() {

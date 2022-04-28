@@ -10,12 +10,12 @@
 
 @media (min-width: 600px) {
   .map-info {
-    font-size: 1.15em;
+    font-size: 1.1em;
   }
 }
 
 @media (min-width: 1000px) {
   .map-info {
-    font-size: 1.25em;
+    font-size: 1.15em;
   }
 }
