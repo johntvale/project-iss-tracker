@@ -1,10 +1,10 @@
 # Projeto ISS Tracker
 <img src="./iss-tracker-cover.png" />
 
-  O ISS Tracker é um site desenvolvido para encontrar a localização da ISS (International Space Station) em tempo real e algumas outras funcionalidades, tais como:
-  - Rastrear a estação espacial em tempo real e exibi-la em um mapa.
+  O ISS Tracker é um site desenvolvido para rastrear a ISS (International Space Station) em tempo real e algumas outras funcionalidades, tais como:
+  - Localizar a Estação Espacial em tempo real e exibi-la em um mapa.
   - Exibir uma lista com a tripulação atual a bordo.
-  - Trazer algumas curiosidades sobre a ISS.
+  - Trazer algumas curiosidades sobre a Estação Espacial.
 
   O objetivo do seu desenvolvimento foi praticar as habilidades de Front-end e Design Responsivo utilizando React, CSS e Media Queries.
   
@@ -15,15 +15,14 @@
 ### Habilidades desenvolvidas
 - Criação e manipulação componentes funcionais (React Functions)
 - Criação e manipulação componentes genéricos
+- Utilização de React Hooks
 - Especificação de PropTypes
-- Mapear componentes
+- Mapeamento de Componentes
 - Consumo de API's utilizando Fetch
 - Gerenciamento de dados com Context API
 - Utilização de links internos e externos
-- Utilização de React Hooks
-- Utilização de  Media Queries para criar responsividade
+- Utilização de Media Queries para criar responsividade
 - Detecção de rolagem e redimensionamento
-
 
 ---
 
@@ -66,4 +65,4 @@
 
 ### Referências
 - Vídeo do Background foi retirado do canal no YouTube: <a href="https://www.youtube.com/watch?v=FG0fTKAqZ5g">David Peterson</a>
-- Site inspirado no site oficial da <a href="https://www.nasa.gov/">NASA</a>
+- Projeto inspirado no site oficial da <a href="https://www.nasa.gov/">NASA</a> e nas aulas do mestre <a href="https://github.com/icaroharry">Ícaro Harry</a>
