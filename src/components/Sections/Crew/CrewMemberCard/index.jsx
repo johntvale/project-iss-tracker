@@ -8,7 +8,7 @@ function CrewMemberCard(props) {
 
   useEffect(() => {
     setFlagImg(`https://countryflagsapi.com/png/${flagCode}`);
-  }, []);
+  }, [flagCode]);
 
   return (
     <div className="crew-member-card">

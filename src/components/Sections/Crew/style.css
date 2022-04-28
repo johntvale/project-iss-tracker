@@ -30,6 +30,7 @@
   border: 1px solid rgba(255, 255, 255, 0.10);
   width: 180px;
   height: 60px;
+  cursor: pointer;
 }
 
 .list-control-button:active {
