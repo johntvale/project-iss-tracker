@@ -15,8 +15,8 @@ export default function Footer() {
         <a href="#fun-facts">Fun Facts</a>
       </nav>
       <p>
-        Website developed by: <a href="https://www.linkedin.com/in/jtvale/">John Torres</a>.
-        Repository: <a href="https://github.com/johntvale/project-iss-tracker">ISS Tracker</a>
+        Website developed by: <a href="https://github.com/johntvale">John Torres</a>. Repository:{' '}
+        <a href="https://github.com/johntvale/project-iss-tracker">ISS Tracker</a>
       </p>
     </footer>
   );

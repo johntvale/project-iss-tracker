@@ -23,8 +23,10 @@
 }
 
 .flag {
-  height: 17px;
+  height: 15px;
   width: 25px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .crew-member-card > div > h4, .crew-member-card > div > p {
