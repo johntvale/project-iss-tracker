@@ -1,6 +1,6 @@
 /* Mobile First development pattern */
 
-.navbar { /* default for any screen */
+.navbar { /* default for small screen */
   display: flex;
   height: 30px;
   justify-content: space-between;
@@ -96,6 +96,7 @@
 
   .navbar > ul {
     border-top:none;
+    margin-top: 85px;
   }
   
   .navbar > ul > li {
