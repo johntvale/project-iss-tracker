@@ -37,6 +37,11 @@ export default function Navigation() {
     setShowMenuList(!showMenuList);
   }
 
+  function menuListHandler() {
+    // close the menu after click
+    if (screenSize < 1000) setShowMenuList(false);
+  }
+
   return (
     <nav className="navbar">
       <a href="#">
@@ -48,18 +53,24 @@ export default function Navigation() {
       {showMenuList && (
         <ul>
           <li>
-            <a className="notranslate" href="#">
+            <a className="notranslate" href="#" onClick={menuListHandler}>
               Home
             </a>
           </li>
           <li>
-            <a href="#location-section">Location</a>
+            <a href="#location-section" onClick={menuListHandler}>
+              Location
+            </a>
           </li>
           <li>
-            <a href="#crew-section">Crew</a>
+            <a href="#crew-section" onClick={menuListHandler}>
+              Crew
+            </a>
           </li>
           <li>
-            <a href="#fun-facts">Fun Facts</a>
+            <a href="#fun-facts" onClick={menuListHandler}>
+              Fun Facts
+            </a>
           </li>
         </ul>
       )}
