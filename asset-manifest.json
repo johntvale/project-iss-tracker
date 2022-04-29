@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-iss-tracker/static/css/main.e0980a9f.css",
-    "main.js": "/project-iss-tracker/static/js/main.02ba18ce.js",
+    "main.css": "/project-iss-tracker/static/css/main.a1e6eef1.css",
+    "main.js": "/project-iss-tracker/static/js/main.25651780.js",
     "static/js/787.22dca5b7.chunk.js": "/project-iss-tracker/static/js/787.22dca5b7.chunk.js",
     "static/media/iss-time-lapse.mp4": "/project-iss-tracker/static/media/iss-time-lapse.6a281be4d672dfc4b004.mp4",
     "static/media/gif02.gif": "/project-iss-tracker/static/media/gif02.65cb73342395e2810aff.gif",
@@ -11,12 +11,12 @@
     "static/media/img01.jpg": "/project-iss-tracker/static/media/img01.a906fcc280045693d775.jpg",
     "static/media/img03.jpg": "/project-iss-tracker/static/media/img03.2647c48e9ef3e62a6bd8.jpg",
     "index.html": "/project-iss-tracker/index.html",
-    "main.e0980a9f.css.map": "/project-iss-tracker/static/css/main.e0980a9f.css.map",
-    "main.02ba18ce.js.map": "/project-iss-tracker/static/js/main.02ba18ce.js.map",
+    "main.a1e6eef1.css.map": "/project-iss-tracker/static/css/main.a1e6eef1.css.map",
+    "main.25651780.js.map": "/project-iss-tracker/static/js/main.25651780.js.map",
     "787.22dca5b7.chunk.js.map": "/project-iss-tracker/static/js/787.22dca5b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0980a9f.css",
-    "static/js/main.02ba18ce.js"
+    "static/css/main.a1e6eef1.css",
+    "static/js/main.25651780.js"
   ]
 }
