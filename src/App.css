@@ -11,6 +11,11 @@ body {
   background-image: url('../src/assets/background.png');
 }
 
+h1 {
+  font-family: 'Iceland', cursive;
+  font-weight: bold;
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -15,11 +15,11 @@ export const setInitialNavigationMode = (screenSize, setShowMenuList) => {
 };
 
 export const setNavigationMode = (screenSize, setScreenSize, setShowMenuList) => {
-  // update the navigation mode if there were change on screen width
+  // update the navigation mode if there were resize and change on screen width
   window.addEventListener('resize', (event) => {
     const currentScreenSize = event.target.window.innerWidth;
     if (screenSize !== currentScreenSize && currentScreenSize > 999) setShowMenuList(true);
-    else setShowMenuList(false);
+    else if (screenSize !== currentScreenSize && currentScreenSize < 999) setShowMenuList(false);
     setScreenSize(currentScreenSize);
   });
 };

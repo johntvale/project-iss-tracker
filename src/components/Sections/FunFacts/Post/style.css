@@ -12,14 +12,20 @@
   font-size: 1.15em;
 }
 
-.post > img{
+.container-img {
+  display: flex;
+  justify-content: center;
+  background-color: black;
   border: 1px solid rgba(255,255,255, 0.2);
   border-radius: 0.5em;
   width: 100%;
-  min-width: 80%;
   height: 250px;
+}
+
+.post-img {
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
-  object-position: center;
 }
 
 .post > p {
@@ -40,7 +46,7 @@
     font-size: 1.25em;
   }
 
-  .post > img {
+  .container-img {
     height: 350px;
   }
 
@@ -59,7 +65,7 @@
     font-size: 1.4em;
   }
 
-  .post > img {
+  .container-img {
     height: 500px;
   }
 
