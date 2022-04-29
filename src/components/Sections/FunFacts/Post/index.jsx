@@ -7,7 +7,9 @@ function Post(props) {
   return (
     <div className="post">
       <h3>{title}</h3>
-      <img src={image}></img>
+      <div className="container-img">
+        <img className="post-img" src={image}></img>
+      </div>
       <p>{text}</p>
       <p>
         Image by: <a href={url}>{credit}</a>
