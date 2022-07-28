@@ -56,13 +56,6 @@
   npm start
   ```
 
-- O site estará disponível localmente em http://localhost:3000/
-
-- Para encerrar, execute o comando abaixo no terminal em que o react está ativo:
-  ```
-  "ctrl + c"
-  ```
-
 ### Referências
 - Vídeo do Background foi retirado do canal no YouTube: <a href="https://www.youtube.com/watch?v=FG0fTKAqZ5g">David Peterson</a>
 - Projeto inspirado no site oficial da <a href="https://www.nasa.gov/">NASA</a> e nas aulas do mestre <a href="https://github.com/icaroharry">Ícaro Harry</a>
