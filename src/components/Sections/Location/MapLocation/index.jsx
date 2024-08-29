@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import issIcon from '../../../../assets/icons/iss-icon.png';
 import { Map, Overlay, ZoomControl } from 'pigeon-maps';
-import { stamenToner } from 'pigeon-maps/providers';
+import { osm } from 'pigeon-maps/providers';
 import LocationContext from '../../../../context/LocationContext';
 
 function MapLocation() {
@@ -11,7 +11,7 @@ function MapLocation() {
     <Map
       metaWheelZoom={true}
       twoFingerDrag={true}
-      provider={stamenToner}
+      provider={osm}
       height={500}
       margin={20}
       min-width={300}

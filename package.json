@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^3.2.3",
+    "memfs": "^4.11.1",
     "pigeon-maps": "^0.21.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

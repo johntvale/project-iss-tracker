@@ -1,7 +1,6 @@
-export const setHomeBtnPosition = (event, setHomeBtnClassName) => {
+export const setHomeBtnPosition = (scrollYPosition, setHomeBtnClassName) => {
   // set button home on bottom with page down event
-  const detectedScroll = event.path[1].scrollY;
-  if (detectedScroll > 52) {
+  if (scrollYPosition > 52) {
     setHomeBtnClassName('logo-icon-home');
   } else {
     setHomeBtnClassName('logo-icon');
