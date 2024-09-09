@@ -1,8 +1,7 @@
 import CrewMemberCard from '../components/Sections/Crew/CrewMemberCard';
 
-export function mapList(receivedList) {
-  const onlyIssCrew = receivedList.filter(person => person.iss);
-  const map = onlyIssCrew.map((personObject) => {
+export function mapList(issCrew) {
+  const map = issCrew.map((personObject) => {
     const { id, image, name, country, flag_code, position, spacecraft, url } = personObject;
     return (
       <CrewMemberCard

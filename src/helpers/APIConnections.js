@@ -17,8 +17,8 @@ export const getCrewInfo = async (setCrewList, setPeopleInSpace, setIsLoading) =
   try {
     let data = await fetch(ISS_CREW_URL);
     data = await data.json();
-    setCrewList(data.people);
-    setPeopleInSpace(data.number);
+    setCrewList(data.people.filter(p => p.iss));
+    setPeopleInSpace(data.people.filter(p => p.iss).length);
   } catch (error) {
     console.error(error);
   }
