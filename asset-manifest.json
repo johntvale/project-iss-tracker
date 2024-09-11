@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-iss-tracker/static/css/main.50365e82.css",
-    "main.js": "/project-iss-tracker/static/js/main.d05742ad.js",
+    "main.css": "/project-iss-tracker/static/css/main.351c6046.css",
+    "main.js": "/project-iss-tracker/static/js/main.2745c009.js",
     "static/js/787.22dca5b7.chunk.js": "/project-iss-tracker/static/js/787.22dca5b7.chunk.js",
     "static/media/gif02.gif": "/project-iss-tracker/static/media/gif02.8b863f848c757019c437.gif",
     "static/media/iss-time-lapse.mp4": "/project-iss-tracker/static/media/iss-time-lapse.03785821bfa2b42d59ed.mp4",
@@ -9,14 +9,21 @@
     "static/media/background.png": "/project-iss-tracker/static/media/background.38f33bf1ee6b7b185334.png",
     "static/media/img02.jpg": "/project-iss-tracker/static/media/img02.78c946112a492aea3b59.jpg",
     "static/media/img01.jpg": "/project-iss-tracker/static/media/img01.a906fcc280045693d775.jpg",
+    "static/media/TitilliumWeb-ExtraLightItalic.ttf": "/project-iss-tracker/static/media/TitilliumWeb-ExtraLightItalic.94defa8e3254742a50e1.ttf",
     "static/media/img03.jpg": "/project-iss-tracker/static/media/img03.2647c48e9ef3e62a6bd8.jpg",
+    "static/media/TitilliumWeb-Light.ttf": "/project-iss-tracker/static/media/TitilliumWeb-Light.2b8d1521998c2d55bb51.ttf",
+    "static/media/TitilliumWeb-Regular.ttf": "/project-iss-tracker/static/media/TitilliumWeb-Regular.e53e0538893d432e0635.ttf",
+    "static/media/TitilliumWeb-SemiBold.ttf": "/project-iss-tracker/static/media/TitilliumWeb-SemiBold.d4d3eeb6e2367e6796c3.ttf",
+    "static/media/TitilliumWeb-ExtraLight.ttf": "/project-iss-tracker/static/media/TitilliumWeb-ExtraLight.2d07e99a2247f13f7969.ttf",
+    "static/media/TitilliumWeb-Bold.ttf": "/project-iss-tracker/static/media/TitilliumWeb-Bold.a267a8b6b783d7d62039.ttf",
+    "static/media/Iceland-Regular.ttf": "/project-iss-tracker/static/media/Iceland-Regular.7e45c1c08b547e6668ab.ttf",
     "index.html": "/project-iss-tracker/index.html",
-    "main.50365e82.css.map": "/project-iss-tracker/static/css/main.50365e82.css.map",
-    "main.d05742ad.js.map": "/project-iss-tracker/static/js/main.d05742ad.js.map",
+    "main.351c6046.css.map": "/project-iss-tracker/static/css/main.351c6046.css.map",
+    "main.2745c009.js.map": "/project-iss-tracker/static/js/main.2745c009.js.map",
     "787.22dca5b7.chunk.js.map": "/project-iss-tracker/static/js/787.22dca5b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50365e82.css",
-    "static/js/main.d05742ad.js"
+    "static/css/main.351c6046.css",
+    "static/js/main.2745c009.js"
   ]
 }
